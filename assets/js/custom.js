@@ -114,7 +114,7 @@
 
 			group = $(this).attr('data-group');
 			var groupName = $(this).attr('data-group');
-
+			console.log(typeof groupName)
 			$portfolioContainer.shuffle('shuffle', groupName );
 		});
 
