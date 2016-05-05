@@ -1193,15 +1193,31 @@ text-align: center;
 font-size: 14px;
 }
 
-#portfoliocontainer{
+#trumpportfoliocontainer{
 background-color: #595752;
+padding-bottom: 20px;
+}
+#muportfoliocontainer{
+background-color: #595752;
+padding-bottom: 20px;
+}
+#transportfoliocontainer{
+background-color: #595752;
+padding-bottom: 20px;
+
 }
 
 #portfoliotrump{
 	color: white;
+	padding-bottom: 20px;
+}
+.row .trumprow{
+	background-color: #595752;
+
 }
 h3.trump{
 	color: white;
+
 }
 p.trump{
 	color: white;
