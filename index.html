@@ -34,6 +34,7 @@
 
 	<!-- Custom styles CSS -->
 	<link href="assets/css/style.css" rel="stylesheet" media="screen">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/css/materialize.min.css">
 </head>
 <body>
 
@@ -50,9 +51,9 @@
 	<section id="home" class="module-image js-height-full">
 
 		<div class="intro">
-			<div class="hello"></div>
-			<h1>Mind of Marshall</h1>
-			<h2>web development and good beer</h2>
+			<div class="hello" ></div>
+			<h1 id="title" class="animated slideInLeft">Mind of Marshall</h1>
+			<h2 id="title2" class="animated slideInRight">web development and good times</h2>
 			<div class="who-creates">creating modern and responsive design for Web and Mobile</div>
 		</div>
 
@@ -95,131 +96,58 @@
 						<li><a href="#portfolio">Portfolio</a></li>
 						<li><a href="#about">About</a></li>
 						<li><a href="#contact">Contact</a></li>
-						<!-- <li class="dropdown">
-							<a href="#" class="dropdown-toggle" data-toggle="dropdown">
-								UI Elements <span class="caret"></span>
-							</a>
-							<ul class="dropdown-menu" role="menu">
-								<li><a href="icons.html">Icons</a></li>
-								<li><a href="components.html">Components</a></li>
-							</ul> -->
 						</li>
 					</ul>
 				</div>
-
 			</div><!-- .container -->
-
 		</nav>
-
 	</header>
 
 	<!-- Navigation end -->
 
 	<!-- Portfolio start -->
 
-	<section id="portfolio" class="module paddingb-none">
-		<div class="container">
-			<div class="row">
+	<div class="row">
+		<div class="col-sm-12">
+			<ul id="filter">
+				<li class="active" data-group="all">All</li>
 
-				<div class="col-sm-6 col-sm-offset-3">
+				<li data-group="video">Video</li>
+				<li data-group="image">Image</li>
+			</ul>
+		</div>
+	</div>
 
-					<div class="module-header wow fadeInUp">
-						<h2 class="module-title">My Portfolio</h2>
-						<div class="module-line"></div>
-						<div class="module-subtitle">
-							Web Sites and Projects
-						</div>
-						<div class="module-line"></div>
-					</div>
+<br>
+<br>
 
-				</div>
-
-			</div><!-- .row -->
-
-			<!-- Portfolio Filter start-->
-
-			<div class="row">
-
-				<div class="col-sm-12">
-
-					<ul id="filter">
-						<li class="active" data-group="all">All</li>
-						<li data-group="slideshow">Slideshow</li>
-						<li data-group="video">Video</li>
-						<li data-group="image">Image</li>
-					</ul>
-
-				</div>
-
-			</div><!-- .row -->
-
-			<!-- Portfolio Filter end -->
-
-		</div><!-- .contaier -->
-
-		<!-- .container here -->
-			<!-- .row -->
-				<!-- div.col-4 -->
-					<!-- div with content inside -->
-				<!-- end div.col-4 -->
-
-				<!-- div.col-4 -->
-					<!-- div with content inside -->
-				<!-- end div.col-4 -->
-
-				<!-- div.col-4 -->
-					<!-- div with content inside -->
-				<!-- end div.col-4 -->
-			<!-- end .row -->
-		<!-- end .container -->
-		<ul class="portfolio-items-container">
-
-			<li class="portfolio-item" data-groups="all image">
-				<figure>
-					<img src="assets/images/InclusiveInitiative500px225px.jpg" alt="" />
-					<figcaption>
-						<a href="#" class="simple-ajax-popup"></a>
-						<div class="Hate State Navigate">
-							<h3 class="portfolio-item-title">Group project to assist businesses in registering their bathrooms as non-threatening to transgendered individuals. Currently down for maintenance, but may re-appear soon.</h3>
-							<div class="portfolio-item-desc">Image</div>
-						</div>
-					</figcaption>
-				</figure>
-			</li>
-
-			<li class="portfolio-item" data-groups="all image">
-				<figure>
-					<img src="assets/images/Screen Shot 500px225px.png" alt="">
-					<figcaption>
-						<a href="http://www.muchartgenerator.com"></a>
-						<div class="caption-inner">
-							<h3 class="portfolio-item-title">Group project.  Assisted with wireframing and Git management and some front-end coding.  Also assisted with research on API display issues.</h3>
-							<div class="portfolio-item-desc">Image</div>
-						</div>
-					</figcaption>
-				</figure>
-			</li>
+<section class="portfolio">
+	<div class="container">
+		<div class="row" id="portfoliocontainer">
+			<div class="col-md-3">
+				<img src="assets/images/trump.jpg" />
+			</div>
+			<div class="col-md-9">
+				<h3>Mad Libs Trump Style</h3>
+				<p class="portfolio">My first solo project in the WDI program,
+					Trump Libs is an API created using HTML5 audio
+					tags nested inside callback functions to make very
+					funny sentences of certain republican candidates. These
+					mp3 clips were pulled from YouTube sources in the public
+					domain and are from a combination of interviews and public
+					speaking engagments. This project was a big hit with the class,
+					and I'm planning to turn it into a mobile app using Cordova. The
+					biggest challenge on this project was the sheer amount of audio I had
+					to plow through to get to the good clips. The javascript itself was also a bit finicky.
+				</p>
+			</div>
+		</div>
+	</div>
+</section>
 
 
 
-			<li class="portfolio-item" data-groups="all image">
-				<figure>
-					<img src="assets/images/trump500px225px.jpg" alt="">
-					<figcaption>
-						<a href="http://bmarsha72.github.io/project1/" ></a>
-						<div class="caption-inner">
-							<h3 class="portfolio-item-title">Trump Libs.  Created an API that manipulates HTML5 audio tags to sort mp3 clips into funny statements</h3>
-							<div class="portfolio-item-desc">Image</div>
-						</div>
-					</figcaption>
-				</figure>
-			</li>
 
-		</ul><!-- .projects-container -->
-
-	</section>
-
-	<!-- Portfolio end -->
 
 	<!-- Callout start -->
 
@@ -318,7 +246,7 @@
 							<div class="iconboxleft-text">
 								<h3 class="iconboxleft-title">Likes</h3>
 								<div class="iconboxleft-desc">
-									I enjoy Thai cuisine, all types and genres of music, Jimmy Fallon, John Oliver, and spending time with my kids.
+									I enjoy Thai cuisine, all types and genres of music, Jimmy Fallon, John Oliver, and learning new stuff.
 								</div>
 							</div>
 						</div>
@@ -412,9 +340,8 @@
 
 					<ul class="social-links">
 
-						<li><a href="#" class="wow fadeInUp" data-wow-delay=".1s"><i class="fa fa-twitter"></i></a></li>
-						<li><a href="#" class="wow fadeInUp" data-wow-delay=".2s"><i class="fa fa-google-plus"></i></a></li>
-						<li><a href="#" class="wow fadeInUp" data-wow-delay=".3s"><i class="fa fa-linkedin"></i></a></li>
+						<li><a href="https://github.com/bmarsha72" class="wow fadeInUp" data-wow-delay=".2s"><i class="fa fa-github"></i></a></li>
+						<li><a href="https://www.linkedin.com/in/hammercode" class="wow fadeInUp" data-wow-delay=".3s"><i class="fa fa-linkedin"></i></a></li>
 
 					</ul>
 
