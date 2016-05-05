@@ -1197,6 +1197,12 @@ font-size: 14px;
 background-color: #595752;
 }
 
-.p-portfolio{
+#portfoliotrump{
+	color: white;
+}
+h3.trump{
+	color: white;
+}
+p.trump{
 	color: white;
 }
