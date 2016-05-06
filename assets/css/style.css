@@ -1222,6 +1222,11 @@ h3.trump{
 p.trump{
 	color: white;
 }
+<<<<<<< HEAD
 #trumpshit{
 	padding-left: 110px;
+=======
+em.trump{
+	color: white;
+>>>>>>> c5a2df61b62998fbef5be8aff1b68d72f2bb90b2
 }
