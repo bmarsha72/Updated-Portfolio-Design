@@ -21,7 +21,7 @@ img {
 }
 
 a {
-	color: #49e2d6;
+	color: #497564;
 }
 
 a:hover {
@@ -1221,4 +1221,7 @@ h3.trump{
 }
 p.trump{
 	color: white;
+}
+#trumpshit{
+	padding-left: 110px;
 }
