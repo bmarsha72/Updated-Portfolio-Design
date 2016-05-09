@@ -226,11 +226,6 @@
 			new google.maps.Point(40, 40)
 		);
 
-		map.addMarker({
-			position: mapLocation,
-			icon: image,
-		});
-
 	});
 
 })(jQuery);
