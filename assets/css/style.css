@@ -14,13 +14,14 @@ body {
 	overflow-x: hidden;
 }
 
+
 img {
 	max-width: 100%;
 	height: auto;
 }
 
 a {
-	color: #49e2d6;
+	color: #497564;
 }
 
 a:hover {
@@ -1140,10 +1141,6 @@ button.mfp-close {
 		letter-spacing: 3px;
 	}
 
-	#title{
-		
-	}
-
 	h2 {
 		font-size: 24px;
 		margin: 0 0 30px;
@@ -1191,3 +1188,35 @@ line-height: 40px;
 text-align: center;
 font-size: 14px;
 }
+
+#trumpportfoliocontainer{
+background-color: #595752;
+padding-bottom: 20px;
+}
+#muportfoliocontainer{
+background-color: #595752;
+padding-bottom: 20px;
+}
+#transportfoliocontainer{
+background-color: #595752;
+padding-bottom: 20px;
+}
+/*#portfoliotrump{
+	color: white;
+	padding-bottom: 20px;
+}*/
+.row .trumprow{
+	background-color: #595752;
+
+}
+h3.trump{
+	color: white;
+	border-width: 10px;
+	word-wrap: normal;
+
+}
+p.trump{
+	color: white;
+}
+#trumpshit{
+	padding-left: 110px;

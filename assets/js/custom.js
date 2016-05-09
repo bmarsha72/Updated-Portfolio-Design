@@ -205,7 +205,11 @@
 		 * Google Map
 		/* ---------------------------------------------- */
 
+<<<<<<< HEAD
 		var mapLocation = new google.maps.LatLng(42.031504, -87.684295,17);
+=======
+		var mapLocation = new google.maps.LatLng(42.031504,-87.684295,17);
+>>>>>>> 4b8b12761a894eea97a48b7230a5a28a7ef86fdb
 
 		map = new GMaps({
 			streetViewControl : false,
