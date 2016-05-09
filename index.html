@@ -50,9 +50,9 @@
 	<section id="home" class="module-image js-height-full">
 
 		<div class="intro">
-			<div class="hello"></div>
-			<h1>Mind of Marshall</h1>
-			<h2>web development and good beer</h2>
+			<div class="hello" ></div>
+			<h1 id="title" class="animated slideInLeft">Mind of Marshall</h1>
+			<h2 id="title2" class="animated slideInRight">web development and good times</h2>
 			<div class="who-creates">creating modern and responsive design for Web and Mobile</div>
 		</div>
 
@@ -95,22 +95,11 @@
 						<li><a href="#portfolio">Portfolio</a></li>
 						<li><a href="#about">About</a></li>
 						<li><a href="#contact">Contact</a></li>
-						<!-- <li class="dropdown">
-							<a href="#" class="dropdown-toggle" data-toggle="dropdown">
-								UI Elements <span class="caret"></span>
-							</a>
-							<ul class="dropdown-menu" role="menu">
-								<li><a href="icons.html">Icons</a></li>
-								<li><a href="components.html">Components</a></li>
-							</ul> -->
 						</li>
 					</ul>
 				</div>
-
 			</div><!-- .container -->
-
 		</nav>
-
 	</header>
 
 	<!-- Navigation end -->
@@ -139,18 +128,14 @@
 			<!-- Portfolio Filter start-->
 
 			<div class="row">
-
 				<div class="col-sm-12">
-
 					<ul id="filter">
 						<li class="active" data-group="all">All</li>
-						<li data-group="slideshow">Slideshow</li>
+						<!-- <li data-group="slideshow">Slideshow</li>
 						<li data-group="video">Video</li>
-						<li data-group="image">Image</li>
+						<li data-group="image">Image</li> -->
 					</ul>
-
 				</div>
-
 			</div><!-- .row -->
 
 			<!-- Portfolio Filter end -->
@@ -172,15 +157,64 @@
 				<!-- end div.col-4 -->
 			<!-- end .row -->
 		<!-- end .container -->
-		<ul class="portfolio-items-container">
 
+		<container>
+			<div class="row">
+				<div class="col-sm-12">
+					<ul class="portfolio-items-container">
+						<li class="portfolio-item" data-groups="all image">
+							<figure>
+								<img src="assets/images/InclusiveInitiative500px225px.jpg" alt="" />
+								<figcaption>
+									<a href="#" class="simple-ajax-popup"></a>
+									<div class="Hate State Navigate">
+										<h3 class="portfolio-item-title">Group project created the week after North Carolina passed HB2.  Designed to assist businesses in registering their bathrooms as non-threatening to transgendered individuals. Currently down for maintenance, but may re-appear soon.</h3>
+										<div class="portfolio-item-desc">Image</div>
+									</div>
+								</figcaption>
+							</figure>
+						</li>
+
+						<li class="portfolio-item" data-groups="all image">
+							<figure>
+								<img src="assets/images/Screen Shot 500px225px.png" alt="">
+								<figcaption>
+									<a href="http://www.muchartgenerator.com"></a>
+									<div class="caption-inner">
+										<h3 class="portfolio-item-title">Group project designed to share lists of charts of ablums based on Essential Charts.  Assisted with wireframing and Git management and some front-end coding.  Also assisted with research on API display issues.</h3>
+										<div class="portfolio-item-desc">Image</div>
+									</div>
+								</figcaption>
+							</figure>
+						</li>
+
+						<li class="portfolio-item" data-groups="all image">
+							<figure>
+								<img src="assets/images/trump500px225px.jpg" alt="">
+								<figcaption>
+									<a href="http://www.trumplib.com" ></a>
+									<div class="caption-inner">
+										<h3 class="portfolio-item-title">Mad Libs Trump Style.  Created an API that manipulates HTML5 audio tags to sort mp3 clips into funny statements</h3>
+										<div class="portfolio-item-desc">Image</div>
+									</div>
+								</figcaption>
+							</figure>
+						</li>
+					</ul><!-- .projects-container -->
+
+
+				</div>
+			</div>
+		</container>
+
+		<ul class="portfolio-items-container">
 			<li class="portfolio-item" data-groups="all image">
 				<figure>
 					<img src="assets/images/InclusiveInitiative500px225px.jpg" alt="" />
 					<figcaption>
 						<a href="#" class="simple-ajax-popup"></a>
 						<div class="Hate State Navigate">
-							<h3 class="portfolio-item-title">Group project to assist businesses in registering their bathrooms as non-threatening to transgendered individuals. Currently down for maintenance, but may re-appear soon.</h3>
+							<h3 class="portfolio-item-title">Group project created the week after North Carolina passed HB2.  Designed to assist businesses in registering their bathrooms as non-threatening to transgendered individuals. Currently down for maintenance, but may re-appear soon.</h3>
 							<div class="portfolio-item-desc">Image</div>
 						</div>
 					</figcaption>
@@ -193,28 +227,25 @@
 					<figcaption>
 						<a href="http://www.muchartgenerator.com"></a>
 						<div class="caption-inner">
-							<h3 class="portfolio-item-title">Group project.  Assisted with wireframing and Git management and some front-end coding.  Also assisted with research on API display issues.</h3>
+							<h3 class="portfolio-item-title">Group project designed to share lists of charts of ablums based on Essential Charts.  Assisted with wireframing and Git management and some front-end coding.  Also assisted with research on API display issues.</h3>
 							<div class="portfolio-item-desc">Image</div>
 						</div>
 					</figcaption>
 				</figure>
 			</li>
-
-
 
 			<li class="portfolio-item" data-groups="all image">
 				<figure>
 					<img src="assets/images/trump500px225px.jpg" alt="">
 					<figcaption>
-						<a href="http://bmarsha72.github.io/project1/" ></a>
+						<a href="http://www.trumplib.com" ></a>
 						<div class="caption-inner">
-							<h3 class="portfolio-item-title">Trump Libs.  Created an API that manipulates HTML5 audio tags to sort mp3 clips into funny statements</h3>
+							<h3 class="portfolio-item-title">Mad Libs Trump Style.  Created an API that manipulates HTML5 audio tags to sort mp3 clips into funny statements</h3>
 							<div class="portfolio-item-desc">Image</div>
 						</div>
 					</figcaption>
 				</figure>
 			</li>
-
 		</ul><!-- .projects-container -->
 
 	</section>
@@ -318,7 +349,7 @@
 							<div class="iconboxleft-text">
 								<h3 class="iconboxleft-title">Likes</h3>
 								<div class="iconboxleft-desc">
-									I enjoy Thai cuisine, all types and genres of music, Jimmy Fallon, John Oliver, and spending time with my kids.
+									I enjoy Thai cuisine, all types and genres of music, Jimmy Fallon, John Oliver, and learning new stuff.
 								</div>
 							</div>
 						</div>
@@ -412,9 +443,8 @@
 
 					<ul class="social-links">
 
-						<li><a href="#" class="wow fadeInUp" data-wow-delay=".1s"><i class="fa fa-twitter"></i></a></li>
-						<li><a href="#" class="wow fadeInUp" data-wow-delay=".2s"><i class="fa fa-google-plus"></i></a></li>
-						<li><a href="#" class="wow fadeInUp" data-wow-delay=".3s"><i class="fa fa-linkedin"></i></a></li>
+						<li><a href="https://github.com/bmarsha72" class="wow fadeInUp" data-wow-delay=".2s"><i class="fa fa-github"></i></a></li>
+						<li><a href="https://www.linkedin.com/in/hammercode" class="wow fadeInUp" data-wow-delay=".3s"><i class="fa fa-linkedin"></i></a></li>
 
 					</ul>
 
