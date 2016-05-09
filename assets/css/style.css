@@ -21,7 +21,7 @@ img {
 }
 
 a {
-	color: #49e2d6;
+	color: #497564;
 }
 
 a:hover {
@@ -1141,10 +1141,6 @@ button.mfp-close {
 		letter-spacing: 3px;
 	}
 
-	#title{
-
-	}
-
 	h2 {
 		font-size: 24px;
 		margin: 0 0 30px;
@@ -1222,6 +1218,5 @@ h3.trump{
 p.trump{
 	color: white;
 }
-em.trump{
-	color: white;
-}
+#trumpshit{
+	padding-left: 110px;
