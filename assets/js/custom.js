@@ -237,5 +237,3 @@
 	});
 
 })(jQuery);
-
-$ echo '{}' > composer.json
